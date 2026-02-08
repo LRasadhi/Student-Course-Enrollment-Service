@@ -31,7 +31,7 @@ A small REST API for managing students, courses, and enrollments. Built with **P
 Start the API:
 
 ```bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn app.main:app --reload 
 ```
 
 - API base: `http://localhost:8000`
